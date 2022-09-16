@@ -91,8 +91,33 @@ blockquote::after {
   padding-bottom: 20px;
   text-align: center;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 50px;
+}
+
+#look_here {
+  color: salmon;
+  font-size: 40px;
+}
+
+#linker {
+  text-align: center;
+}
+
+#epic_bbq_guy {
+  width: 400px;
+  height: 350px;
+}
+
+#fantasy {
+  width: 200px;
+  height: 100px;
+  font-size: 25px;
+  font-weight: 550;
+  color: blueviolet;
+  background-color: yellowgreen;
+  border: none;
+  border-radius: 15px;
 }
 
 /*id 지정 끝*/
