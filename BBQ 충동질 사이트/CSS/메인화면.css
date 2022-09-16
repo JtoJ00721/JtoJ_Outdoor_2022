@@ -1,0 +1,87 @@
+/*태그 지정 시작*/
+
+body {
+  margin: 0%;
+}
+
+header {
+  padding: 50px;
+  text-align: center;
+  background-color: cornflowerblue;
+  color: coral;
+  font-size: 70px;
+  font-weight: 700;
+  text-shadow: 7px 7px 7px #000;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: wheat;
+}
+
+blockquote {
+  display: inline;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 200%;
+}
+
+blockquote::before {
+  content: "“";
+  color: cornflowerblue;
+  font-size: 70px;
+}
+blockquote::after {
+  content: "”";
+  color: cornflowerblue;
+  font-size: 70px;
+}
+
+/*태그 지정 끝*/
+
+/*클래스 지정 시작*/
+.ddaom {
+  font-size: 100px;
+  color: cyan;
+  font-weight: 1000;
+  display: inline;
+}
+/*클래스 지정 끝*/
+
+/*id 지정 시작*/
+#whatisbbq {
+  display: flex;
+  padding: 20px;
+}
+#easter {
+  color: black;
+  font-size: 15px;
+}
+
+#footbox1 {
+  font-size: 30px;
+  height: 90px;
+  line-height: 550%;
+  font-weight: 700;
+}
+
+#bbqimg1 {
+  width: 500px;
+  height: 370px;
+  padding: 0%;
+  margin: 0%;
+  display: inline;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#minip {
+  font-size: 20px;
+  color: black;
+  text-shadow: none;
+}
+
+/*id 지정 끝*/
