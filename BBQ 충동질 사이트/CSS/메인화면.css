@@ -1,7 +1,7 @@
 /*태그 지정 시작*/
 
 body {
-  margin: 0%;
+  margin: 0px;
 }
 
 header {
@@ -16,6 +16,9 @@ header {
 }
 
 footer {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
   text-align: center;
   background-color: black;
   color: wheat;
@@ -102,11 +105,15 @@ blockquote::after {
 
 #linker {
   text-align: center;
+  vertical-align: middle;
+  padding-bottom: 50px;
 }
 
 #epic_bbq_guy {
   width: 400px;
   height: 350px;
+  vertical-align: bottom;
+  padding-right: 100px;
 }
 
 #fantasy {
@@ -118,6 +125,7 @@ blockquote::after {
   background-color: yellowgreen;
   border: none;
   border-radius: 15px;
+  vertical-align: 175px;
 }
 
 /*id 지정 끝*/
