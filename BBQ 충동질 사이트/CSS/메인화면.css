@@ -5,7 +5,8 @@ body {
 }
 
 header {
-  padding: 50px;
+  border: 20px ridge gold;
+  padding: 25px;
   text-align: center;
   background-color: cornflowerblue;
   color: coral;
@@ -52,7 +53,7 @@ blockquote::after {
 /*클래스 지정 끝*/
 
 /*id 지정 시작*/
-#whatisbbq {
+#what_is_bbq {
   display: flex;
   padding: 20px;
 }
@@ -82,6 +83,12 @@ blockquote::after {
   font-size: 20px;
   color: black;
   text-shadow: none;
+}
+
+#why_the_hell {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 /*id 지정 끝*/
