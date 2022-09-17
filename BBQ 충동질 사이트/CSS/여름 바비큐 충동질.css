@@ -128,4 +128,9 @@ blockquote::after {
   vertical-align: 175px;
 }
 
+#fantasy:hover {
+  background-color: olivedrab;
+  color: tomato;
+}
+
 /*id 지정 끝*/
