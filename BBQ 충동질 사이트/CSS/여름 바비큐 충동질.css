@@ -31,6 +31,9 @@ blockquote {
   font-size: 30px;
   font-weight: 600;
   line-height: 200%;
+  text-align: left;
+  margin: auto;
+  margin-left: 50px;
 }
 
 blockquote::before {
@@ -59,6 +62,7 @@ blockquote::after {
 #what_is_bbq {
   display: flex;
   padding: 20px;
+  text-align: center;
 }
 #easter {
   color: black;
@@ -78,8 +82,8 @@ blockquote::after {
   padding: 0%;
   margin: 0%;
   display: inline;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: auto;
+  margin-right: 0px;
 }
 
 #minip {
